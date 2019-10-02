@@ -1,0 +1,14 @@
+import Uteis as manipulador # Apenas importando funções uteis para rodar o programa principal AKA Core
+
+while True:    #Loop para executar a função responsavle pelo menu principal.
+    try:
+        manipulador.menu()
+
+
+    except:   #Criando uma exceção para declarar um erro caso o loop falhe.
+        print('OPA, DEU ERRO!')
+
+
+
+
+
